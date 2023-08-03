@@ -14,12 +14,16 @@
   <img width="400" src="images/first.png">
 </p>
 
+Three points are chosen randomly as centroids which are depicted as red dots. Based on the inital position of centroids, the points are separated into 3 clusters. The square shapes represent the centroids in the second image.
+
 <p align="center">
   <img src="images/second.png" width="250" /> 
   <img src="images/third.png" width="250" />
   <img src="images/fourth.png" width="250" /> 
   <img src="images/fifth.png" width="250" />
 </p>
+
+The result after 2-5 iteration are shown above.
 
 ### Run-2
 
