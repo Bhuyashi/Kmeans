@@ -2,7 +2,7 @@ import random as rand
 import math
 import matplotlib.pyplot as plt
 
-colorList = ['red','blue','green','yellow','orange','purple']
+colorList = ['red','blue','green','orange','cyan','purple']
 
 # Getting random data points
 def getData():
@@ -13,8 +13,8 @@ def getData():
     return x,y
 
 # Plotting the points
-def plotData(x,y,clr='blue',mkr='.'):
-    plt.scatter(x,y,color=clr,marker=mkr)
+def plotData(x,y,clr='blue',mkr='o',sz=20):
+    plt.scatter(x,y,color=clr,marker=mkr,s=sz)
 
 def eucleadianDistance(x1,y1,x2,y2):
     return math.sqrt((x1-x2)**2 + (y1-y2)**2)
@@ -67,13 +67,13 @@ def kmeans(X,Y,k):
         for i in range(k):
             x,y = zip(*clusters[i])
             plotData(list(x),list(y),colorList[i])
-            plotData(centroids_x[i],centroids_y[i],colorList[i],'s')
+            plotData(centroids_x[i],centroids_y[i],colorList[i],'s',40)
         plt.show()
         centroids_x, centroids_y, clusters = findNewCentroids(clusters,k)
     
 if __name__ == '__main__':
 
     x,y = getData()
-    k = 3
+    k = 5
     kmeans(x,y,k)
 

@@ -14,7 +14,7 @@
   <img width="400" src="images/first.png">
 </p>
 
-Three points are chosen randomly as centroids which are depicted as red dots. Based on the inital position of centroids, the points are separated into 3 clusters. The square shapes represent the centroids in the second image.
+Three points are chosen randomly as centroids which are depicted by the red dots. Based on the inital position of centroids, the points are separated into 3 clusters. The square shapes represent the centroids in the second image.
 
 <p align="center">
   <img src="images/second.png" width="300" /> 
@@ -23,18 +23,20 @@ Three points are chosen randomly as centroids which are depicted as red dots. Ba
   <img src="images/fifth.png" width="300" />
 </p>
 
-The result after 2-5 iteration are shown above.
+The result after 2-5 iteration are shown above. It can be seen that the centroids' position almost stabilises after 4th iteration.
 
 ### Run-2
 
 <p align="center">
-  <img width="300" src="images/random1.png">
-  <img width="300" src="images/first1.png">
+  <img width="400" src="images/random1.png">
+  <img width="400" src="images/first1.png">
 </p>
 
+The inital positions of the centroids are too close compared to the amount of spread in the data. By the end of the iterations, the spread is fully captured by the centroid positions.
+
 <p align="center">
-  <img src="images/second1.png" width="200" /> 
-  <img src="images/third1.png" width="200" />
-  <img src="images/fourth1.png" width="200" /> 
-  <img src="images/fifth1.png" width="200" />
+  <img src="images/second1.png" width="300" /> 
+  <img src="images/third1.png" width="300" />
+  <img src="images/fourth1.png" width="300" /> 
+  <img src="images/fifth1.png" width="300" />
 </p>
