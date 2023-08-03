@@ -8,22 +8,29 @@
 ## Results
 
 ### Run-1
-<!-- <img align="center" width="300" height="300" src="images/random.png">   -->
+
 <p align="center">
-  <img width="300" src="images/random.png">
-  <img width="300" src="images/first.png">
-</p>
-<!-- <img align="left" width="150" height="150" src="images/first.png">
-<img align="center" width="150" height="150" src="images/second.png">
-<img align="right" width="150" height="150" src="images/third.png"> -->
-<!-- ![first-1]("images/first.png") | ![second-1]("images/second.png") -->
-<p align="center">
-  <!-- <img src="images/first.png" width="200" /> -->
-  <img src="images/second.png" width="200" /> 
-  <img src="images/third.png" width="200" />
-  <img src="images/fourth.png" width="200" /> 
-  <img src="images/fifth.png" width="200" />
+  <img width="400" src="images/random.png">
+  <img width="400" src="images/first.png">
 </p>
 
+<p align="center">
+  <img src="images/second.png" width="250" /> 
+  <img src="images/third.png" width="250" />
+  <img src="images/fourth.png" width="250" /> 
+  <img src="images/fifth.png" width="250" />
+</p>
 
 ### Run-2
+
+<p align="center">
+  <img width="300" src="images/random1.png">
+  <img width="300" src="images/first1.png">
+</p>
+
+<p align="center">
+  <img src="images/second1.png" width="200" /> 
+  <img src="images/third1.png" width="200" />
+  <img src="images/fourth1.png" width="200" /> 
+  <img src="images/fifth1.png" width="200" />
+</p>
