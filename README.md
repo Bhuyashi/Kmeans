@@ -1,13 +1,13 @@
-# Kmeans
+# K-means algorithm implementation
 
 ## Description
 * The code will generate a random data set with 100 points and initially assign 'k' centroids randomly. 
-* The Kmeans algorithm will then run for 5 iterations, in each run refining the position of centroids.  
+* The K-means algorithm will then run for 5 iterations, in each run refining the position of centroids.  
 * After each iteration, a graph will be plotted to show the current state of centroid positions.
 
 ## Results
 
-### Run-1
+### Run-1 (k = 3)
 
 <p align="center">
   <img width="400" src="images/random.png">
@@ -25,14 +25,14 @@ Three points are chosen randomly as centroids which are depicted by the red dots
 
 The result after 2-5 iteration are shown above. It can be seen that the centroids' position almost stabilises after 4th iteration.
 
-### Run-2
+### Run-2 (k = 5)
 
 <p align="center">
   <img width="400" src="images/random1.png">
   <img width="400" src="images/first1.png">
 </p>
 
-The inital positions of the centroids are too close compared to the amount of spread in the data. By the end of the iterations, the spread is fully captured by the centroid positions.
+From the data it appears that 4 clusters should be sufficient, but with k equal to 5, one more cluster is squeezed in (green one).
 
 <p align="center">
   <img src="images/second1.png" width="300" /> 
